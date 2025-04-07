@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (currentImage) {
       // Set the image source and alt text
-      currentImage.src = "/images/pic01.jpg";
+      currentImage.src = "/Arantaka/Abhi-Chalissery/images/image-38.jpg";
       currentImage.alt = "Mood Board Image";
 
       // Add click event for lightbox
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const lightboxImg = document.querySelector('.lightbox-image');
 
         if (lightbox && lightboxImg) {
-          lightboxImg.src = "/images/pic01.jpg";
+          lightboxImg.src = "/Arantaka/Abhi-Chalissery/images/image-38.jpg";
           lightbox.classList.add('active');
         } else {
           console.error("Lightbox elements are missing from the DOM.");
